@@ -1,0 +1,84 @@
+h1{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    line-height: 2px;
+    color:rgb(13, 219, 13);
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  
+h2{
+    font-family: 'Luckiest Guy', cursive;
+    font-size:40px;
+    line-height:2px;
+    color:greenyellow;
+    text-align:center;
+    position:relative;
+    top:50px;
+    text-shadow:2px 2px 2px black;
+
+
+}
+ul li{
+    font-family:verdana;
+    font-size:20px;
+    text-align:center;
+    list-style-position:inside;
+    position:relative;
+    top:55px;
+
+}
+h3{
+    position:relative;
+    top:55px;
+    font-family:'Luckiest Guy', cursive;
+    font-size:40px;
+    color:gold;
+    text-shadow:2px 2px 2px black;
+}
+  
+ p{
+     font-weight:bolder;
+     text-transform: initial;
+    font-family:Arial, Helvetica, sans-serif;
+
+    }
+form{
+font-family: Arial, Helvetica, sans-serif;
+font-size:25px;
+text-transform:uppercase;
+position:relative;
+top:0px;
+left:250px;
+}
+
+button:hover{
+color:blueviolet;
+}
+
+@media screen and(max-with:480px){
+
+input{
+    font-size:25px;
+   }
+h{
+    font-size:60px;}  
+  
+}
+@media (min-with 481 and max-with1023)
+{
+form{
+    position:relative;
+    left:0px;
+}
+}
+@media screen and(min-with:1024px)
+{
+img{
+    width:350px;
+    height: 150px;
+}    
+
+}
